@@ -2,8 +2,10 @@ import express, {Express, Request, Response} from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import messageRoutes from "./routes/messageRoutes";
+import { connectDb } from "./config/db";
 dotenv.config();
 const app: Express = express()
+connectDb();
 const port = process.env.PORT || 3000;
 app.use(cors({origin: "*"}));
 app.use(express.urlencoded({extended: true}));

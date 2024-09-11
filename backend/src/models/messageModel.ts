@@ -3,13 +3,13 @@ const messageSchema = new mongoose.Schema({
     user:{
         type:String, 
         required:true,
-        minlength:3,
+        minLength:3,
         maxLength:32,
     },
     text:{
         type:String,
         required:true,
-        minlength:1,
+        minLength:1,
         maxLength:255,
     },
     added:{
