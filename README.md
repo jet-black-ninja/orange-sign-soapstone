@@ -29,8 +29,8 @@ A simple message board application built with TypeScript, React, TailwindCSS, an
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/mini-message-board.git
-    cd mini-message-board
+    git clone https://github.com/jet-black-ninja/orange-sign-soapstone
+    cd orange-sign-soapstone
     ```
 
 2. Install dependencies for both the frontend and backend:
@@ -51,7 +51,7 @@ A simple message board application built with TypeScript, React, TailwindCSS, an
 
     ```env
     PORT=5000
-    DATABASE_URL=your_database_url
+    MONGO_URI=your_database_url
     ```
 
 4. Run the application:
@@ -63,10 +63,10 @@ A simple message board application built with TypeScript, React, TailwindCSS, an
 
     # Frontend
     cd frontend
-    npm start
+    npm build
     ```
 
-5. Open your browser and navigate to `http://localhost:3000` to view the app.
+5. Open your browser and navigate to `http://localhost:5137` to view the app.
 
 ## API Endpoints
 
